@@ -1,0 +1,49 @@
+{
+  "project_title": "Movies Analytics: Revenue, ROI, Genres & Director Performance",
+  "description": "A complete exploratory data analysis (EDA) project using an IMDB-style 24-column movie metadata dataset. Includes analysis of genres, yearly movie trends, budget vs revenue, profit & ROI, and director performance.",
+  "author": "Bhaskar Kotyada",
+  "year": 2025,
+  "dataset_details": {
+    "source": "Kaggle",
+    "dataset_name": "IMDB Style Movie Metadata",
+    "total_columns": 24,
+    "important_columns": [
+      "budget",
+      "revenue",
+      "genres",
+      "release_date",
+      "runtime",
+      "vote_average",
+      "vote_count",
+      "cast",
+      "crew",
+      "director",
+      "production_companies",
+      "popularity"
+    ]
+  },
+  "analysis_performed": [
+    "Genre Popularity Analysis",
+    "Movie Releases Per Year",
+    "Budget vs Revenue Correlation",
+    "Profit & ROI Computation",
+    "Top Directors by Average Revenue",
+    "Top Profitable Movies",
+    "Top ROI Movies"
+  ],
+  "technologies_used": [
+    "Python",
+    "Pandas",
+    "Numpy",
+    "Matplotlib",
+    "Seaborn",
+    "Jupyter Notebook"
+  ],
+  "created_files": [
+    "movies_eda_bhaskar.ipynb",
+    "movie_metadata.csv",
+    "README.md",
+    "requirements.txt",
+    "plots/"
+  ]
+}
